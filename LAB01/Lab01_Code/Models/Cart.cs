@@ -36,6 +36,15 @@ public class Cart
     {
         return this.createdDate;
     }
+    //updatedDate
+    public void setUpdatedDate(DateTime updatedDate)
+    {
+        this.updatedDate = updatedDate;
+    }
+    public DateTime getUpdatedDate()
+    {
+        return this.updatedDate;
+    }
     //articles
     public void setArticles(List<Article> articles)
     {
